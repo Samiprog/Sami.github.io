@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 💻 Sameera | Frontend Developer (Future MERN Stack Developer)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal **portfolio website** — built to showcase my projects, skills, and journey as a web developer.  
+I’m a passionate **Frontend Developer** focused on creating responsive, modern, and clean user interfaces, with the goal of becoming a **Full Stack MERN Developer**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🔗 **Visit my portfolio:** [Samiprog.github.io](https://Samiprog.github.io)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Tech Stack
 
-### `npm test`
+- ⚛️ **React.js** – Frontend library for building UI  
+- 💅 **CSS3** – Styling and layout  
+- 🎨 **Bootstrap** – Responsive design framework  
+- 🌐 **JavaScript (ES6)** – Interactivity and logic  
+- 🧰 **Git & GitHub** – Version control and hosting  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Sections Included
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Section | Description |
+|----------|--------------|
+| 🏠 **Home** | Introduction and tagline |
+| 🙋‍♀️ **About** | Personal bio and goals |
+| ⚡ **Skills** | Core technologies I use |
+| 💼 **Projects** | Selected works with links |
+| 📬 **Contact** | Email and connection details |
+| 🧱 **Footer** | Credits and copyright |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Setup Instructions
 
-### `npm run eject`
+If you want to run or customize this project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/Samiprog/Samiprog.github.io.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 2️⃣ Move inside the folder
+cd Samiprog.github.io
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 3️⃣ Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4️⃣ Start the project
+npm start
