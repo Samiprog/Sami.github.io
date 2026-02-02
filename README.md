@@ -48,5 +48,9 @@ cd Samiprog.github.io
 # 3️⃣ Install dependencies
 npm install
 
-# 4️⃣ Start the project
-npm start
+# 4️⃣ Start the project (Production Preview)
+npm run build
+npm run preview
+
+# 🏗️ Development Mode
+npm run dev
