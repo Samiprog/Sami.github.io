@@ -279,8 +279,6 @@ export default function Home() {
                     <span key={idx} className="tech-tag">{tech}</span>
                   ))}
                 </div>
-
-                <button className="btn btn-project">View Project</button>
               </div>
             ))}
           </div>
