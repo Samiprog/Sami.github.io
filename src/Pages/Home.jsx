@@ -280,7 +280,6 @@ export default function Home() {
                   ))}
                 </div>
 
-                <button className="btn btn-project">View Project</button>
               </div>
             ))}
           </div>
