@@ -7,7 +7,7 @@ I’m a passionate **Frontend Developer** focused on creating responsive, modern
 
 ## 🚀 Live Demo
 
-🔗 **Visit my portfolio:** [Samiprog.github.io](https://Samiprog.github.io)
+🔗 **Visit my portfolio:** [Sami.github.io](https://Sami.github.io)
 
 ---
 
