@@ -7,35 +7,39 @@ const projects = [
     title: "Movie Explorer App",
     description: "Built a movie search platform with external API integration, implementing search, filters, and responsive UI using React and Axios.",
     technologies: ["React", "Axios", "Ant Design"],
-    link: "https://github.com/Samiprog/movie-app.git"
+    link: "https://github.com/Samiprog/movie-app.git",
+    image: "/projects/Movie.png"
   },
   {
     id: 2,
     title: "Daraz Clone",
     description: "Complete e-commerce user interface with React and Bootstrap, featuring product listings, category navigation, and responsive design across all devices.",
     technologies: ["React", "Bootstrap", "JavaScript"],
-    link: "https://github.com/Samiprog/daraz-clone.git"
+    link: "https://github.com/Samiprog/daraz-clone.git",
+    image: "/projects/Screenshot 2026-02-12 202136.png"
   },
   {
     id: 3,
     title: "Real Estate Website",
     description: "Modern real estate UI with property listings and detail pages. Built with React and CSS, featuring clean layouts and responsive design.",
     technologies: ["React", "CSS", "Bootstrap"],
-    link: "https://github.com/Samiprog/Real-Estate-App.git"
+    link: "https://github.com/Samiprog/Real-Estate-App.git",
+    image: "/projects/Screenshot 2026-02-12 202108.png"
   },
   {
     id: 4,
-    title: "Notes App",
-    description: "React-based notes application with LocalStorage integration for persistent data storage and minimal, clean interface design.",
+    title: "Expense Tracker App",
+    description: "React-based Expense Tracker application with LocalStorage integration for persistent data storage and minimal, clean interface design.",
     technologies: ["React", "LocalStorage", "JavaScript"],
-    link: "https://github.com/Samiprog/notes-app.git"
+    link: "https://github.com/Samiprog/notes-app.git",
+    image: "/projects/Screenshot 2025-09-20 201930.png"
   },
   {
     id: 5,
-    title: "Movie Explorer",
-    description: "A React.js web app to browse and search movies using an external API.",
-    technologies: ["React", "React Router", "JavaScript"],
-    link: "https://github.com/Samiprog/movie-app.git"
+    title: "Medical Website",
+    description: "A Full Mern Stack Project(In Progress)",
+    technologies: ["React", "React Router", "JavaScript", "Node.js", "Express.js", "MongoDB"],
+    image: "https://placehold.co/600x400/1a1f2e/dc2626?text=Medical+Website"
   }
 ];
 
@@ -271,16 +275,28 @@ export default function Home() {
           <div className="projects-grid">
             {projects.map((project) => (
               <div key={project.id} className="project-card">
-                <h3>{project.title}</h3>
-                <p className="project-description">{project.description}</p>
-                
-                <div className="project-technologies">
-                  {project.technologies.map((tech, idx) => (
-                    <span key={idx} className="tech-tag">{tech}</span>
-                  ))}
+                <div className="project-image">
+                  <img src={project.image} alt={project.title} />
                 </div>
+                <div className="project-card-content">
+                  <h3>{project.title}</h3>
+                  <p className="project-description">{project.description}</p>
+                  
+                  <div className="project-technologies">
+                    {project.technologies.map((tech, idx) => (
+                      <span key={idx} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
 
-                <button className="btn btn-project">View Project</button>
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-project"
+                  >
+                    View Project
+                  </a>
+                </div>
               </div>
             ))}
           </div>
@@ -319,9 +335,9 @@ export default function Home() {
             </p>
 
             <div className="contact-buttons">
-              <button className="btn btn-primary">Mail Me</button>
-              <button className="btn btn-secondary">GitHub</button>
-              <button className="btn btn-secondary">LinkedIn</button>
+              <a href="mailto:sameera182000@gmail.com" className="btn btn-primary">Mail Me</a>
+              <a href="https://github.com/samiprog" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -331,11 +347,6 @@ export default function Home() {
       <footer className="footer">
         <div className="container">
           <p>&copy; 2026 Sameera Javed. All rights reserved.</p>
-          <div className="footer-links">
-            <a href="#privacy">Privacy</a>
-            <a href="#terms">Terms</a>
-            <a href="#sitemap">Sitemap</a>
-          </div>
         </div>
       </footer>
     </div>
