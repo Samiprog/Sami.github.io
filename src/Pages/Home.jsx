@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import movieImg from "../assets/projects/Movie.png";
+import darazImg from "../assets/projects/Screenshot 2026-02-12 202136.png";
+import realEstateImg from "../assets/projects/Screenshot 2026-02-12 202108.png";
+import expenseImg from "../assets/projects/Screenshot 2025-09-20 201930.png";
 
 // Portfolio data
 const projects = [
@@ -8,7 +12,7 @@ const projects = [
     description: "Built a movie search platform with external API integration, implementing search, filters, and responsive UI using React and Axios.",
     technologies: ["React", "Axios", "Ant Design"],
     link: "https://github.com/Samiprog/movie-app.git",
-    image: "/projects/Movie.png"
+    image: movieImg
   },
   {
     id: 2,
@@ -16,7 +20,7 @@ const projects = [
     description: "Complete e-commerce user interface with React and Bootstrap, featuring product listings, category navigation, and responsive design across all devices.",
     technologies: ["React", "Bootstrap", "JavaScript"],
     link: "https://github.com/Samiprog/daraz-clone.git",
-    image: "/projects/Screenshot 2026-02-12 202136.png"
+    image: darazImg
   },
   {
     id: 3,
@@ -24,7 +28,7 @@ const projects = [
     description: "Modern real estate UI with property listings and detail pages. Built with React and CSS, featuring clean layouts and responsive design.",
     technologies: ["React", "CSS", "Bootstrap"],
     link: "https://github.com/Samiprog/Real-Estate-App.git",
-    image: "/projects/Screenshot 2026-02-12 202108.png"
+    image: realEstateImg
   },
   {
     id: 4,
@@ -32,7 +36,7 @@ const projects = [
     description: "React-based Expense Tracker application with LocalStorage integration for persistent data storage and minimal, clean interface design.",
     technologies: ["React", "LocalStorage", "JavaScript"],
     link: "https://github.com/Samiprog/notes-app.git",
-    image: "/projects/Screenshot 2025-09-20 201930.png"
+    image: expenseImg
   },
   {
     id: 5,
